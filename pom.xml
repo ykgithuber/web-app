@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>ACADA Learning Releases Nexus Repository</name>
-	      <url>http://34.207.164.172:8081/repository/gro-release/</url>
+	      <url>http://3.88.225.110:8081/repository/sep17-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>ACADA Learning Snapshot Nexus Repository </name>
-	      <url>http://34.207.164.172:8081/repository/gro-snapshot/</url>
+	      <url>http://3.88.225.110:8081/repository/sep17-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
