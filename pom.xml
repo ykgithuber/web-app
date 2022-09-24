@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>2.0.7.1-SNAPSHOT</version>
+	<version>2.0.7.3-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://44.203.118.136:9000/</sonar.host.url>
+		<sonar.host.url>http://34.230.61.234:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>ACADA Learning Releases Nexus Repository</name>
-	      <url>http://3.88.225.110:8081/repository/sep17-release/</url>
+	      <url>http://34.201.127.32:8081/repository/sharedfile/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>ACADA Learning Snapshot Nexus Repository </name>
-	      <url>http://3.88.225.110:8081/repository/sep17-snapshot/</url>
+	      <url>http:http://34.201.127.32:8081/repository/sharedfile-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
