@@ -15,11 +15,6 @@ sh "echo Start of Build"
 sh "${mavenHome}/bin/mvn package"
 }
 
-stage('4.CodeQuality'){
-sh "echo start of SonarQube Analysis"
-sh "${mavenHome}/bin/mvn sonar:sonar"
-}
-
 stage('5.BackupArtifacts'){
 sh "echo start of Nexus"
 sh "${mavenHome}/bin/mvn deploy"
